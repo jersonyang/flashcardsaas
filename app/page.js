@@ -67,7 +67,7 @@ export default function Home() {
 <Box sx={{ padding: 4 }}> {/* Add left and right padding here */}
 {/* Hero Section */}
     <Box sx={{textAlign:'center', my: 4,}}>
-      <Typography variant="h2" gutterBottom>Welcome to Flashcard Saas</Typography>
+      <Typography variant="h2" gutterBottom>Welcome to Flashcard SaaS</Typography>
       <Typography variant="h5" gutterBottom sx={{ fontStyle: 'italic' }}>{''}The easiest way to make flashcards from your text</Typography>
       <Button variant='contained' sx={{mt: 2, backgroundColor: '#9370DB', padding: '12px 24px', fontSize: '16px'}}>
         <Link href="/generate" passHref style={{ textDecoration: 'none', color: 'inherit' }}>
